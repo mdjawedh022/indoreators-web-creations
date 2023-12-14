@@ -2,12 +2,15 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+ 
+}
+body{
+   background-color: rgba(93, 155, 148, 0.919);
 }
 .notes-wrapper {
-  background-color: rgba(93, 155, 148, 0.919);
   margin-top: 3rem;
   padding-top: 5rem;
-  height: 100vh;
+  height:100vh;
 }
 .input-notes {
   text-align: center;
@@ -55,7 +58,7 @@ text-align: center;
   .input-notes input {
     width: 37%;
   }
-  
+
   .notes-data {
   grid-template-columns: repeat(2,1fr);
   gap: 20px;
@@ -73,6 +76,9 @@ text-align: center;
   gap: 20px;
 
 }
+.notes-wrapper {
+  height:100vh;
+}
 }
 
 @media screen and (max-width: 380px) {
@@ -84,6 +90,9 @@ text-align: center;
   grid-template-columns: repeat(1,1fr);
   gap: 20px;
 
+}
+.notes-wrapper {
+  height:100vh;
 }
 }
 

@@ -1,29 +1,31 @@
-.notesCard-wrapper{
-     background: antiquewhite;
-     padding: 1rem;
-     border-radius: 5px;
-     display: flex;
-     flex-direction: column;
-     align-items: start;
-     justify-content: space-between;
+.notesCard-wrapper {
+  background: antiquewhite;
+  padding: 1rem;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
 }
-.notes-inner{
-    width: 80%;
+.notes-inner {
+  width: 80%;
 }
-.notes-inner h4{
-    text-align: start;
+.notes-inner h4 {
+  text-align: start;
 }
-.notesCard-wrapper p{
-    color: gray;
-    font-size: .9rem;
-    margin-top:1.5rem;
+.notesCard-wrapper p {
+  color: gray;
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
 }
-.deleteIcon{
-    color:rgba(82, 131, 125, 0.919);
-    font-size: 1.5rem;
-   text-align: right;
+.deleteIcon {
+  color: rgba(82, 131, 125, 0.919);
+  font-size: 1.5rem;
+  text-align: right;
+  background: antiquewhite;
 }
-.div-delete{
-    width:100%;
-    text-align: end;
+.div-delete {
+  width: 100%;
+  text-align: end;
+  background: antiquewhite;
 }
