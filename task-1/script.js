@@ -46,9 +46,9 @@ const TableCount = () => {
       React.createElement(
         "tr",
         null,
-        React.createElement("th", null, "Column 1"),
+        React.createElement("th", null, "MONTH 1"),
         Array.from({ length: columns - 1 }).map((_, index) =>
-          React.createElement("th", { key: index }, `Column ${index + 2}`)
+          React.createElement("th", { key: index })
         )
       )
     ),

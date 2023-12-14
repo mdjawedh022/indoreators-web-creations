@@ -3,15 +3,27 @@
      padding: 1rem;
      border-radius: 5px;
      display: flex;
-     align-items: flex-end;
+     flex-direction: column;
+     align-items: start;
      justify-content: space-between;
+}
+.notes-inner{
+    width: 80%;
+}
+.notes-inner h4{
+    text-align: start;
 }
 .notesCard-wrapper p{
     color: gray;
     font-size: .9rem;
-    margin-top: 1.5rem;
+    margin-top:1.5rem;
 }
 .deleteIcon{
     color:rgba(82, 131, 125, 0.919);
     font-size: 1.5rem;
+   text-align: right;
+}
+.div-delete{
+    width:100%;
+    text-align: end;
 }

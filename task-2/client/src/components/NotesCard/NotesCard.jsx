@@ -11,12 +11,14 @@ const NotesCard = ({notes}) => {
   }
   return (
     <div key={_id} className="notesCard-wrapper">
-      <div>
+      <div className="notes-inner">
         {" "}
         <h4>{note}</h4>
         <p>{date}</p>
       </div>
-      <MdDelete className='deleteIcon' onClick={()=>handleDelete(_id)}/>
+      <div className='div-delete'>
+        <MdDelete className="deleteIcon" onClick={() => handleDelete(_id)} />
+      </div>
     </div>
   );
 }
