@@ -2,5 +2,5 @@ Task 1 deploy link:-https://storied-scone-ce05f5.netlify.app/
 </br>
 </br>
 </br>
-Task 2 deploy link:-https://stirring-kashata-a679a0.netlify.app/
+Task 2 deploy link:-https://harmonious-scone-be5909.netlify.app
 </br>
