@@ -13,7 +13,7 @@ noteRouter.get("/", async (req, res) => {
   }
 });
 
-// ---------------------------------------------
+// ---------------------post Notes------------------------
 noteRouter.post("/post", async (req, res) => {
   try {
     const note = new NoteModel(req.body);
@@ -24,7 +24,7 @@ noteRouter.post("/post", async (req, res) => {
   }
 });
 
-// ---------------------------------------------
+// ---------------------delete Notess------------------------
 
 noteRouter.delete("/delete/:id", async (req, res) => {
   try {

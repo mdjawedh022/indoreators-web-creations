@@ -6,7 +6,7 @@ const { noteRouter } = require("./routes/notes.routes");
 require("dotenv").config();
 
 app.get("/", (req, res) => {
-  res.send("welcome to book library!");
+  res.send("welcome to notes!");
 });
 
 app.use(express.json());
