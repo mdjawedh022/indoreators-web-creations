@@ -26,7 +26,10 @@ export const postNotes = (noteData) => async (dispatch) => {
   dispatch(postNotesRequest());
 
   try {
-    await axios.post("http://localhost:3030/api/notes/post", noteData);
+    await axios.post(
+      "https://zany-gold-hen-robe.cyclic.app/api/notes/post",
+      noteData
+    );
     dispatch(postNotesSuccess());
     dispatch(getNotes());
   } catch (error) {
@@ -38,7 +41,9 @@ export const getNotes = () => async (dispatch) => {
   dispatch(getNotesRequest());
 
   try {
-    const response = await axios.get("http://localhost:3030/api/notes");
+    const response = await axios.get(
+      "https://zany-gold-hen-robe.cyclic.app/api/notes"
+    );
     // console.log("API Response:", response.data);
 
     dispatch(getNotesSuccess(response.data.notes));
@@ -53,7 +58,9 @@ export const deleteNotes = (noteId) => async (dispatch) => {
   dispatch(deleteNotesRequest());
 
   try {
-    await axios.delete(`http://localhost:3030/api/notes/delete/${noteId}`);
+    await axios.delete(
+      `https://zany-gold-hen-robe.cyclic.app/api/notes/delete/${noteId}`
+    );
     dispatch(deleteNotesSuccess());
         dispatch(getNotes());
   } catch (error) {
