@@ -1,0 +1,14 @@
+.navbar-wrapper{
+ width: 100%;
+ position: fixed;
+ background-color: #202120;  
+ top: 0;
+ color: #fff;
+ display: flex;
+ padding: .5rem 1rem;
+ gap: 10px;
+ align-items: center; 
+}
+.icons{
+    font-size: 1.5rem;
+}

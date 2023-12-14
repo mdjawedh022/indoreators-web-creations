@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.notes-wrapper {
+  background-color: rgba(93, 155, 148, 0.919);
+  margin-top: 3rem;
+  padding-top: 5rem;
+  height: 100vh;
+}
+.input-notes {
+  text-align: center;
+  background-color: transparent;
+}
+.input-notes input {
+  width: 20%;
+  padding: 0.7rem;
+  font-size: 1.1rem;
+  background: antiquewhite;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+.notes-data {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 25px;
+
+}
+.input-notes button {
+  background-color: rgba(93, 155, 148, 0.919);
+  border: none;
+}
+.Loading h1{
+font-size: 2rem;
+text-align: center;
+}
+@media screen and (max-width: 1050px) {
+  .input-notes input {
+    width: 28%;
+  }
+  .notes-data {
+  grid-template-columns: repeat(3,1fr);
+  gap: 20px;
+
+}
+}
+
+@media screen and (max-width: 850px) {
+  .input-notes input {
+    width: 37%;
+  }
+  
+  .notes-data {
+  grid-template-columns: repeat(2,1fr);
+  gap: 20px;
+
+}
+}
+
+@media screen and (max-width: 450px) {
+  .input-notes input {
+    width: 60%;
+  }
+  
+  .notes-data {
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+
+}
+}
+
+@media screen and (max-width: 380px) {
+  .input-notes input {
+    width: 75%;
+  }
+  
+  .notes-data {
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+
+}
+}
+
+@media screen and (max-width: 330px) {
+     .input-notes input {
+    width:80%;
+  }
+  
+  .notes-data {
+  grid-template-columns: repeat(1,1fr);
+  gap: 20px;
+
+}
+}

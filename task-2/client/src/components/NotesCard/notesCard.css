@@ -1,0 +1,17 @@
+.notesCard-wrapper{
+     background: antiquewhite;
+     padding: 1rem;
+     border-radius: 5px;
+     display: flex;
+     align-items: flex-end;
+     justify-content: space-between;
+}
+.notesCard-wrapper p{
+    color: gray;
+    font-size: .9rem;
+    margin-top: 1.5rem;
+}
+.deleteIcon{
+    color:rgba(82, 131, 125, 0.919);
+    font-size: 1.5rem;
+}
