@@ -6,4 +6,4 @@ Task 2 deploy link:-https://harmonious-scone-be5909.netlify.app
 </br>
 </br>
 </br>
-Task 3 deploy link :-https://regal-gingersnap-8ab436.netlify.app
+Task 3 deploy link :-https://fancy-sundae-6cadd5.netlify.app
